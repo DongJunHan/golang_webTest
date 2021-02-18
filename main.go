@@ -50,5 +50,5 @@ func main(){
 
 //	mux.HandleFunc("/bar",barHandler)
 //	mux.Handle("/foo",&fooHandler{})
-	http.ListenAndServe(":8080",myapp.NewHttpHandler())
+	http.ListenAndServe(":3000",myapp.NewHttpHandler())
 }
