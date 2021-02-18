@@ -30,7 +30,7 @@ func (f *fooHandler) ServeHTTP(w http.ResponseWriter, r *http.Request){
 		return
 	}
 	w.Header().Add("content-type","application/json")
-	w.WriteHeader(http.StatusOK)
+	w.WriteHeader(http.StatusCreated)
 	fmt.Fprint(w,string(data))
 }
 

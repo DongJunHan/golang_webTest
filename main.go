@@ -2,7 +2,7 @@ package main
 import(
 	"fmt"
 	"net/http"
-	"WEB-INF/myapp"
+	"WEB-INF/golang_webTest/myapp"
 //	"time"
 //	"encoding/json"
 )
